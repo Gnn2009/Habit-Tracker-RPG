@@ -13,8 +13,26 @@ habit_rewards = {
     "technical journal": [6],
     "mindfulness break": [6]
 }
+shopping = {
+    "Special Coffe" : [25],
+    "Snack" : [40],
+    "Videogames 1h" : [50],
+    "Series/Youtube" : [40],
+    "nap" : [30],
+    "Relax and movie" :[150],
+    "Trash food" : [250],
+    "New book" : [350],
+    "Walk/hobby" : [200],
+    "Skin" : [500],
+    "New Clothes":[800],
+    "Special Exit" : [1000],
+    "Setup Upgrade" :[2000],
+    "Course or certification" :[3000],
+    "Free Weekend(no habtis)" : [5000]
+}
 
 config_file_path = "config.json"
+lifetime_score = 0
 
 def update_lifetime_score(new_points_earned):
     lifetime_score = 0
